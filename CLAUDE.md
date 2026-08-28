@@ -29,13 +29,32 @@ Webbplatsen följer [Sundsvalls kommuns designsystem](https://ui.sundsvall.dev/)
 
 ## Språk och ton
 
+Följ designsystemets tonalitetsriktlinjer
+(<https://ui.sundsvall.dev/guidelines/tonalitet/>):
+
 - **Allt innehåll skrivs på svenska** – sidtext, alt-texter, aria-etiketter,
-  commit-meddelanden och dokumentation.
+  commit-meddelanden och dokumentation. Klarspråk: du-tilltal, aktiv form,
+  korta meningar, vanliga ord.
 - **Knapptexter ska vara verb i imperativ**: "Utforska arkitekturen",
-  "Läs våra riktlinjer", "Visa kartan" – inte "Till kartan" eller
-  substantivfraser.
+  "Läs våra riktlinjer", "Visa kartan" – inte "Till kartan", "OK" eller
+  substantivfraser. Primärknappar 1–3 ord.
+- **Länktext beskriver målet**: "Läs mer om Kommuna" – aldrig bara "Läs mer"
+  eller "Klicka här".
+- En H1 per sida; H2 för huvudsektioner.
 - Beskrivningen av arkitekturen hålls på en abstrakt nivå: skikt, komponenter
   och principer – inte teknik- eller produktval.
+
+## Tillgänglighet
+
+Webbplatsen ska uppfylla **WCAG 2.2 AA** (DOS-lagen gäller kommunen), se
+<https://ui.sundsvall.dev/guidelines/tillganglighet/>:
+
+- HTML-semantik: `<button>` för åtgärder, `<a>` för navigering – aldrig
+  `<div onClick>`. Designsystemets komponenter ger fokusring och kontrast.
+- Alla bilder har `alt` (diagrammen har utförliga alt-texter – uppdatera dem
+  när diagrammen ändras); dekorativa element får `alt=""` eller
+  `aria-hidden`.
+- Verifiera med tangentbordsnavigering och 200 % zoom.
 
 ## Arbetsflöde
 

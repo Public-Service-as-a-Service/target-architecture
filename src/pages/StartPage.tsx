@@ -95,7 +95,7 @@ const fordjupning = [
     tag: 'Utveckling',
     title: 'utveckling.sundsvall.se',
     href: 'https://utveckling.sundsvall.se/',
-    more: 'Läs mer',
+    more: 'Läs mer om utvecklingen',
     text: 'Kommunens webbplats om den digitala utvecklingen: målbild och strategi, den digitala infrastrukturens delar samt metoder och riktlinjer – inklusive API-strategin och krav vid upphandling.',
   },
   {
@@ -109,7 +109,7 @@ const fordjupning = [
     tag: 'Samverkan',
     title: 'Kommuna',
     href: 'https://kommuna.se/',
-    more: 'Läs mer',
+    more: 'Läs mer om Kommuna',
     text: 'Plattform för delade AI- och digitala tjänster mellan kommuner, där tjänster som utvecklats i en kommun görs tillgängliga för andra.',
   },
   {
