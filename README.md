@@ -1,5 +1,15 @@
 # Målarkitekturen
 
+> **Arkiverat – innehållet har flyttat.** Målarkitekturen är numera sektionen
+> `arkitektur/` på
+> [ekosystemet.sundsvall.dev](https://ekosystemet.sundsvall.dev/arkitektur/index.html)
+> och underhålls i repot
+> [Public-Service-as-a-Service/dev-web](https://github.com/Public-Service-as-a-Service/dev-web),
+> tillsammans med webbkatalogen och API-katalogen. Adresser under
+> `arkitektur.sundsvall.dev` omdirigeras dit. Det här repot ligger kvar som
+> historik och tar inte emot ändringar – historiken följde med till dev-web via
+> `git subtree`.
+
 En webbplats som beskriver Sundsvalls kommuns målarkitektur på hög nivå samt de
 riktlinjer – öppenhet, transparens, återanvändning med flera – som styr
 kommunens digitala utveckling.
